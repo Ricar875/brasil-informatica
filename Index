@@ -1,0 +1,5 @@
+# Apaga tudo da lista de monitoramento do Git para garantir que não vai subir lixo
+git rm -rf .
+git add .
+git commit -m "Limpeza radical: apenas index.html e pasta img"
+git push
